@@ -29,11 +29,12 @@ PRODUCT_PACKAGES += \
     VoiceDialer \
     Basic \
     HoloSpiralWallpaper \
-    MagicSmoke \
+    MagicSmokeWallpapers \
     NoiseField \
     Galaxy4 \
+    LiveWallpapers \
     LiveWallpapersPicker \
-    MusicVisualization \
+    VisualizationWallpapers \
     PhaseBeam
 
 PRODUCT_PACKAGE_OVERLAYS += vendor/stock/overlay/dictionaries
