@@ -1,4 +1,4 @@
-$(call inherit-product, device/samsung/wingray/full_wingray.mk)
+$(call inherit-product, device/moto/wingray/full_wingray.mk)
 
 # Inherit some common stuff.
 $(call inherit-product, vendor/stock/config/common_full_phone.mk)
