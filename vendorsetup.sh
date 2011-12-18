@@ -1,3 +1,7 @@
 add_lunch_combo stock_crespo-userdebug
+add_lunch_combo stock_crespo4g-userdebug
 add_lunch_combo stock_maguro-userdebug
+add_lunch_combo stock_toro-userdebug
+add_lunch_combo stock_stingray-userdebug
+add_lunch_combo stock_wingray-userdebug
 
