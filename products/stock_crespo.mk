@@ -6,6 +6,9 @@ $(call inherit-product, vendor/stock/config/common_full_phone.mk)
 # Inherit some common stuff.
 $(call inherit-product, vendor/stock/config/gsm.mk)
 
+PRODUCT_COPY_FILES +=  \
+    vendor/cnd/prebuilt/common/hdpi/bootanimation.zip:system/media/bootanimation.zip
+
 # Release name
 PRODUCT_RELEASE_NAME := NS
 
