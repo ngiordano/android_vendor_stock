@@ -7,7 +7,7 @@ $(call inherit-product, vendor/stock/config/common_full_phone.mk)
 $(call inherit-product, vendor/stock/config/gsm.mk)
 
 PRODUCT_COPY_FILES +=  \
-    vendor/cnd/prebuilt/common/xhdpi/bootanimation.zip:system/media/bootanimation.zip
+    vendor/stock/prebuilt/common/xhdpi/bootanimation.zip:system/media/bootanimation.zip
 
 # Release name
 PRODUCT_RELEASE_NAME := GN-CDMA

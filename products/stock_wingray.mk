@@ -4,7 +4,7 @@ $(call inherit-product, device/moto/wingray/full_wingray.mk)
 $(call inherit-product, vendor/stock/config/common_full_phone.mk)
 
 PRODUCT_COPY_FILES +=  \
-    vendor/cnd/prebuilt/common/hdpi/bootanimation.zip:system/media/bootanimation.zip
+    vendor/stock/prebuilt/common/hdpi/bootanimation.zip:system/media/bootanimation.zip
 
 # Release name
 PRODUCT_RELEASE_NAME := XOOM(WiFi)
