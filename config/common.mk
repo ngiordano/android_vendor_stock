@@ -37,6 +37,8 @@ PRODUCT_PACKAGES += \
     LiveWallpapersPicker \
     VisualizationWallpapers \
     PhaseBeam
+    
+PRODUCT_PACKAGE_OVERLAYS += vendor/stock/overlay/common
 
 PRODUCT_PACKAGE_OVERLAYS += vendor/stock/overlay/dictionaries
 
