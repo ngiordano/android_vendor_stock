@@ -5,7 +5,7 @@
 
 C=/tmp/backupdir
 S=/system
-V=CodenameDroid-1
+V=CodenameDroid-(STOCK)-1
 
 PROCEED=1;
 
