@@ -7,7 +7,7 @@ $(call inherit-product, vendor/stock/config/common_full_phone.mk)
 $(call inherit-product, vendor/stock/config/gsm.mk)
 
 PRODUCT_COPY_FILES +=  \
-    vendor/stock/prebuilt/common/xhdpi/bootanimation.zip:system/media/bootanimation.zip
+    vendor/stock/prebuilt/xhdpi/bootanimation.zip:system/media/bootanimation.zip
 
 # Release name
 PRODUCT_RELEASE_NAME := GN-GSM
@@ -16,6 +16,6 @@ PRODUCT_BUILD_PROP_OVERRIDES += PRODUCT_NAME=yakju BUILD_ID=IML74K BUILD_DISPLAY
 
 PRODUCT_NAME := stock_maguro
 PRODUCT_DEVICE := maguro
-PRODUCT_BRAND := Google
+PRODUCT_BRAND := google
 PRODUCT_MODEL := Galaxy Nexus
-PRODUCT_MANUFACTURER := Samsung
+PRODUCT_MANUFACTURER := samsung

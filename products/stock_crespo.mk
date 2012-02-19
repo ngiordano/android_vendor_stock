@@ -7,7 +7,7 @@ $(call inherit-product, vendor/stock/config/common_full_phone.mk)
 $(call inherit-product, vendor/stock/config/gsm.mk)
 
 PRODUCT_COPY_FILES +=  \
-    vendor/stock/prebuilt/common/hdpi/bootanimation.zip:system/media/bootanimation.zip
+    vendor/stock/prebuilt/hdpi/bootanimation.zip:system/media/bootanimation.zip
 
 # Release name
 PRODUCT_RELEASE_NAME := NS
@@ -16,6 +16,6 @@ PRODUCT_BUILD_PROP_OVERRIDES += PRODUCT_NAME=soju BUILD_ID=IML74K BUILD_FINGERPR
 
 PRODUCT_NAME := stock_crespo
 PRODUCT_DEVICE := crespo
-PRODUCT_BRAND := Google
+PRODUCT_BRAND := google
 PRODUCT_MODEL := Nexus S
-PRODUCT_MANUFACTURER := Samsung
+PRODUCT_MANUFACTURER := samsung

@@ -18,12 +18,14 @@ PRODUCT_PROPERTY_OVERRIDES += \
 PRODUCT_COPY_FILES += \
     frameworks/base/data/etc/android.software.sip.voip.xml:system/etc/permissions/android.software.sip.voip.xml
     
-PRODUCT_COPY_FILES += \
-    vendor/stock/prebuilt/common/bin/backuptool.sh:system/bin/backuptool.sh
+PRODUCT_COPY_FILES +=  \
+    vendor/stock/prebuilt/common/media/LMprec_508.emd:system/media/LMprec_508.emd \
+    vendor/stock/prebuilt/common/media/PFFprec_600.emd:system/media/PFFprec_600.emd
 
 # Required packages
 PRODUCT_PACKAGES += \
     LatinIME \
+    Launcher2 \
     Superuser \
     su
 
@@ -52,11 +54,11 @@ PRODUCT_VERSION_MAINTENANCE = 1
 
 PRODUCT_BUILD_PROP_OVERRIDES += BUILD_DISPLAY_ID=IML74K
 
-ifdef CND_NIGHTLY
+ifdef CNA_NIGHTLY
     PRODUCT_PROPERTY_OVERRIDES += \
         ro.modversion=CodenameDroid-($(BRANCH))-$(PRODUCT_VERSION_MAJOR)-$(shell date +%m%d%Y)-NIGHTLY-$(PRODUCT_RELEASE_NAME)
 else
-    ifdef CND_RELEASE
+    ifdef CNA_RELEASE
         PRODUCT_PROPERTY_OVERRIDES += \
             ro.modversion=CodenameDroid-($(BRANCH))-$(PRODUCT_VERSION_MAJOR).$(PRODUCT_VERSION_MINOR).$(PRODUCT_VERSION_MAINTENANCE)$(PRODUCT_VERSION_DEVICE_SPECIFIC)-$(PRODUCT_RELEASE_NAME)
     else
