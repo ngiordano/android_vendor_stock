@@ -24,6 +24,7 @@ PRODUCT_COPY_FILES +=  \
 
 # Required packages
 PRODUCT_PACKAGES += \
+    Camera \
     LatinIME \
     Launcher2 \
     Superuser \
