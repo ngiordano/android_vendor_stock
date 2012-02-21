@@ -10,4 +10,7 @@ PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/stock_wingray.mk \
     $(LOCAL_DIR)/stock_tf101.mk \
     $(LOCAL_DIR)/stock_galaxysmtd.mk \
+    $(LOCAL_DIR)/stock_fascinatemtd.mk \
+    $(LOCAL_DIR)/stock_captivatemtd.mk \
+    $(LOCAL_DIR)/stock_vibrantmtd.mk \
     $(LOCAL_DIR)/stock_inc.mk

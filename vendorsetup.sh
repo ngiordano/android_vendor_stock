@@ -8,5 +8,8 @@ add_lunch_combo stock_umts_everest-userdebug
 add_lunch_combo stock_wingray-userdebug
 add_lunch_combo stock_tf101-userdebug
 add_lunch_combo stock_galaxysmtd-userdebug
+add_lunch_combo stock_fascinatemtd-userdebug
+add_lunch_combo stock_captivatemtd-userdebug
+add_lunch_combo stock_vibrantmtd-userdebug
 add_lunch_combo stock_inc-userdebug
 
