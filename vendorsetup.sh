@@ -1,15 +1,18 @@
+add_lunch_combo stock_captivatemtd-userdebug
 add_lunch_combo stock_crespo-userdebug
 add_lunch_combo stock_crespo4g-userdebug
+add_lunch_combo stock_fascinatemtd-userdebug
+add_lunch_combo stock_galaxysmtd-userdebug
+add_lunch_combo stock_inc-userdebug
 add_lunch_combo stock_maguro-userdebug
-add_lunch_combo stock_toro-userdebug
+add_lunch_combo stock_olympus-userdebug
 add_lunch_combo stock_stingray-userdebug
 add_lunch_combo stock_stingray_cdma-userdebug
-add_lunch_combo stock_umts_everest-userdebug
-add_lunch_combo stock_wingray-userdebug
 add_lunch_combo stock_tf101-userdebug
-add_lunch_combo stock_galaxysmtd-userdebug
-add_lunch_combo stock_fascinatemtd-userdebug
-add_lunch_combo stock_captivatemtd-userdebug
+add_lunch_combo stock_tf101g-userdebug
+add_lunch_combo stock_toro-userdebug
+add_lunch_combo stock_umts_everest-userdebug
 add_lunch_combo stock_vibrantmtd-userdebug
-add_lunch_combo stock_inc-userdebug
+add_lunch_combo stock_wingray-userdebug
+
 
