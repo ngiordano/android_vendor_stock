@@ -10,6 +10,7 @@ add_lunch_combo stock_stingray-userdebug
 add_lunch_combo stock_stingray_cdma-userdebug
 add_lunch_combo stock_tf101-userdebug
 add_lunch_combo stock_tf101g-userdebug
+add_lunch_combo stock_tf201-userdebug
 add_lunch_combo stock_toro-userdebug
 add_lunch_combo stock_umts_everest-userdebug
 add_lunch_combo stock_vibrantmtd-userdebug

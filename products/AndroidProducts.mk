@@ -11,6 +11,7 @@ PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/stock_stingray_cdma.mk \
     $(LOCAL_DIR)/stock_tf101.mk \
     $(LOCAL_DIR)/stock_tf101g.mk \
+    $(LOCAL_DIR)/stock_tf201.mk \
     $(LOCAL_DIR)/stock_toro.mk \
     $(LOCAL_DIR)/stock_umts_everest.mk \
     $(LOCAL_DIR)/stock_vibrantmtd.mk \
