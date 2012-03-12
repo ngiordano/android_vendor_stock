@@ -2,6 +2,7 @@ add_lunch_combo stock_captivatemtd-userdebug
 add_lunch_combo stock_crespo-userdebug
 add_lunch_combo stock_crespo4g-userdebug
 add_lunch_combo stock_fascinatemtd-userdebug
+add_lunch_combo stock_galaxys2-userdebug
 add_lunch_combo stock_galaxysmtd-userdebug
 add_lunch_combo stock_inc-userdebug
 add_lunch_combo stock_maguro-userdebug
